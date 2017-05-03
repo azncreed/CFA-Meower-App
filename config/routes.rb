@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   root 'pages#index'
 
   get 'pages/help'
+  get 'pages/about'
+  get 'pages/contact'
 
   resources :posts
   resources :users
